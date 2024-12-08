@@ -1,0 +1,269 @@
+
+:root {
+    --fuente-principal: 'Pacifico';
+    --fuente-alternativa: sans-serif;
+    --tam-titulo-xs: 30px;
+/*    --tam-fuente-sm: 13px;*/
+/*    --tam-fuente-md: 15px;*/
+/*    --tam-fuente-lg: 17px;*/
+/*    --tam-fuente-xl: 17px;*/
+/*    --tam-max-contenedor-x: 1200px;*/
+/*    --tam-alto-encabezado-xs: 8vh;*/
+/*    --negro: #000;*/
+/*    --blanco: #FFF;*/
+    --fondo-encabezado: #B8D2F4;
+/*    --fondo-menu: var(--blanco);*/
+/*    --fondo-todo: var(--fondo-encabezado);*/
+/*    --color-texto: #517104;*/
+/*    --color-titulos-claro: #2CDA1C;*/
+/*    --color-titulos-oscuro: #1F411C;*/
+    --color-primario: #517104;
+/*    --color-secundario: #83A705;*/
+/*    --color-opuesto-primario: #894B26;*/
+/*    --color-opuesto-secundario: #F58A03;*/
+/*    --color-enlace: var(--color-opuesto-primario);*/
+/*    --color-enlace-hover: var(--color-opuesto-secundario);*/
+/*    --color-transparencia: rgba(0, 0, 0, 0.5);*/
+}
+
+*,
+:after,
+:before {
+    padding: 0;
+    margin: 0;
+    font-family: var(--fuente-principal);
+}
+/*body {*/
+/*    overflow-x: hidden;*/
+/*}*/
+/*----------cabecera-------------------*/
+nav{
+    color: var(--color-primario);
+}
+.logo{
+    height: 10%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--color-primario);
+    background-color: var(--fondo-encabezado);
+}
+#logo-img{
+    width: 80px;
+    height: 50px;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+ul li{
+    border-bottom: 1px solid var(--color-primario);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-primario);
+}
+
+/*------------contenido general-----------*/
+/*.articulo{*/
+/*    padding: 10px 30px;*/
+/*}*/
+.titulo{
+    font-size: var(--tam-titulo-xs);
+    text-align: center;
+    color: var(--color-primario);
+}
+.parrafo{
+    color: var(--color-primario);
+}
+
+
+/*--------------seccion 1-----------------------*/
+#contenido1{
+    box-sizing: border-box;
+    display: flex;
+    background-image: url("img/casa-bosque-xs.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    height: 60vh;
+    padding: 100px 50px;
+
+}
+#articulo1{
+    box-sizing: border-box;
+    border: 3px solid var(--color-primario);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de opacidad */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+
+/*---------------seccion2-------------------*/
+#contenido2{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/texture-1674066_640.jpg");
+    /*background-size: 100% 100%;*/
+    padding: 10px 30px;
+
+}
+
+
+#imagen2{
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 100%;
+    height: 38vh;
+    border-radius: 10px;
+    border: 1px solid var(--color-primario);
+}
+
+/*---------------seccion3-------------------*/
+#contenido3{
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+#imagen3{
+    width: 100%;
+    height: 40vh;
+}
+/*---------------seccion4-------------------*/
+#contenido4{
+    box-sizing: border-box;
+    padding: 10px 30px;
+
+}
+/*-----------------seccion5-----------------------*/
+#contenido5{
+    box-sizing: border-box;
+}
+#parrafo5{
+    padding: 10px 30px;
+    box-sizing: border-box;
+    color: var(--color-primario);
+}
+#imagen5{
+    width: 100%;
+    height: 40vh;
+}
+/*-------------seccion6----------------*/
+#contenido6{
+    box-sizing: border-box;
+}
+#parrafo6{
+    padding: 10px 30px;
+    box-sizing: border-box;
+    color: var(--color-primario);
+}
+#imagen6{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40vh;
+}
+
+/*------------seccion-galeria-------------*/
+#contenido_galeria_imagen{
+    background-image: url("img/texture-1674066_640.jpg");
+}
+.articulo_galeria{
+    box-sizing: border-box;
+    padding:10px 30px;
+}
+.imagen_galeria{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40vh;
+    border-radius: 10px;
+    border: 1px solid var(--color-primario);
+}
+/*!*------------seccion_escribenos-------------*!*/
+#seccion_escribenos{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/contacto-xs.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 30px;
+}
+#articulo_escribenos{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10vh;
+}
+#articulo_escribenos2{
+    box-sizing: border-box;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#titulo_escribenos2{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+#tituloForm{
+    font-size: var(--tam-titulo-xs);
+}
+
+#formulario_escribenos2{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro con 50% de opacidad */
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#enviarForm{
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries sm */
+@media (min-width: 576px) {
+}
+
+/* Media queries md */
+@media (min-width: 768px) {
+}
+
+/* Media queries lg */
+@media (min-width: 992px) {
+}
+
+/* Media queries xl */
+@media (min-width: 1200px) {
+}
