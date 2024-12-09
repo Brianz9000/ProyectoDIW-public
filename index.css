@@ -25,7 +25,9 @@
 /*    --color-enlace-hover: var(--color-opuesto-secundario);*/
 /*    --color-transparencia: rgba(0, 0, 0, 0.5);*/
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 *,
 :after,
@@ -68,7 +70,10 @@ ul li{
     align-items: center;
     color: var(--color-primario);
 }
-
+a{
+    color: var(--color-primario);
+    text-decoration: none;
+}
 /*------------contenido general-----------*/
 /*.articulo{*/
 /*    padding: 10px 30px;*/
@@ -136,8 +141,8 @@ ul li{
 /*---------------seccion3-------------------*/
 #contenido3{
     box-sizing: border-box;
-    padding: 10px 30px;
 }
+
 #imagen3{
     width: 100%;
     height: 40vh;
@@ -242,6 +247,15 @@ ul li{
     box-sizing: border-box;
 }
 
+#ir_inicio{
+    font-size:200px;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+    width: 40px;
+}
 
 
 
