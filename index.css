@@ -109,10 +109,12 @@ a{
     display: flex;
     align-items: center;
     padding: 0px 30px;
+    padding: 2rem;
+    text-align: center;
 }
 #parrafo1{
     box-sizing: border-box;
-    font-size: 35px;
+    font-size: 2rem;
     text-align: center;
     color: #21ad21;
 }
@@ -200,7 +202,7 @@ a{
 #seccion_escribenos{
     box-sizing: border-box;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: url("img/contacto-xs.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -235,6 +237,7 @@ a{
 #formulario_escribenos2{
     box-sizing: border-box;
     width: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     color: white;
@@ -272,12 +275,13 @@ a{
 
 
 
-/* Media queries sm */
+/* Media queries sm
 @media (min-width: 576px) {
-}
+} */
 
 /* Media queries md */
 @media (min-width: 768px) {
+
 }
 
 /* Media queries lg */
