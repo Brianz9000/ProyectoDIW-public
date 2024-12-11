@@ -267,7 +267,7 @@ a{
     ul li{
         height:8vh
     }
-    #
+
     /* --------------contenido1--------- */
     #contenido1{
         background-position: cover;
@@ -276,8 +276,10 @@ a{
         line-height: 2rem;
 
     }
-
-
+    /* --------------contenido2--------- */
+    #contenido2{
+        height: 100vh;
+    }
 }
 
     
