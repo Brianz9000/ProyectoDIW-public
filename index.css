@@ -280,6 +280,26 @@ a{
     #contenido2{
         height: 100vh;
     }
+    #imagen2{
+        height: 50vh;
+    }
+    /* --------------contenido3--------- */
+    #imagen3{
+        height: 90vh;
+    }
+    /* --------------contenido5--------- */
+    #imagen5{
+        height: 60vh;
+    }
+    /* --------------contenido6--------- */
+    #imagen6{
+        height: 60vh;
+    }
+    /* --------------galeria--------- */
+    .imagen_galeria{
+        height: 90vh;
+    }
+
 }
 
     
