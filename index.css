@@ -321,7 +321,6 @@ a{
 /* Media queries md */
 @media (min-width: 768px) {
     #seccion_escribenos{
-        height: 100vh;
         border: 20px solid blue
     }
 }
