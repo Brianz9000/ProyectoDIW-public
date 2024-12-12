@@ -280,7 +280,7 @@ a{
     }
     /* --------------contenido2--------- */
     #contenido2{
-        height: 100vh;
+        height: 100%;
     }
     #imagen2{
         height: 50vh;
