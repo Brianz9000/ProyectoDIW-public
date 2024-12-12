@@ -305,8 +305,6 @@ a{
     #seccion_escribenos{
         height: 100vh;
     }
-
-
 }
 
     
@@ -321,13 +319,15 @@ a{
 } */
 
 /* Media queries md */
-/*@media (min-width: 768px) {*/
+@media (min-width: 768px) {
 
-/*}*/
+}
 
 /* Media queries lg */
 @media (min-width: 992px) {
-
+    #seccion_escribenos{
+        height: 100vh;
+    }
 }
 
 /* Media queries xl */
