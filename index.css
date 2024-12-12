@@ -335,4 +335,8 @@ a{
 
 /* Media queries xl */
 @media (min-width: 1200px) {
+    #seccion_escribenos{
+        border: 20px solid green;
+
+    }
 }
