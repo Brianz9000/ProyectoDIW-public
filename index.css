@@ -322,14 +322,14 @@ a{
 @media (min-width: 768px) {
     #seccion_escribenos{
         height: 100vh;
-        border: 2px solid blue
+        border: 20px solid blue
     }
 }
 
 /* Media queries lg */
 @media (min-width: 992px) {
     #seccion_escribenos{
-        border: 2px solid red;
+        border: 20px solid red;
     }
 }
 
