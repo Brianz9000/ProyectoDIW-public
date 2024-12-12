@@ -321,16 +321,36 @@ a{
 /* Media queries md */
 @media (min-width: 678px) {
     #seccion_escribenos{
-        border: 20px solid blue;
         height: 100vh;
+        padding: 0px;
+        margin-top:-40px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #articulo_escribenos{
+        box-sizing: border-box;
+        width: 100%;
+        padding-top: 70px;
+        /*position: relative;*/
+    }
+    #articulo_escribenos2{
+        height: 40vh;
+        box-sizing: border-box;
+        width: 70%;
+        padding-top: 40vh;
     }
 }
+
 
 /* Media queries lg */
 @media (min-width: 992px) {
     #seccion_escribenos{
         border: 20px solid red;
     }
+
 }
 
 /* Media queries xl */
