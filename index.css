@@ -319,7 +319,7 @@ a{
 } */
 
 /* Media queries md */
-@media (min-width: 768px) {
+@media (min-width: 668px) {
     #seccion_escribenos{
         border: 20px solid blue
     }
