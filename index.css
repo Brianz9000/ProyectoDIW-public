@@ -3,8 +3,9 @@
     --fuente-principal: 'Pacifico';
     --fuente-alternativa: sans-serif;
     --tam-titulo-xs: 30px;
+    --tam-titulo-md: 40px;
 /*    --tam-fuente-sm: 13px;*/
-/*    --tam-fuente-md: 15px;*/
+    --tam-fuente-md: 3em;
 /*    --tam-fuente-lg: 17px;*/
 /*    --tam-fuente-xl: 17px;*/
 /*    --tam-max-contenedor-x: 1200px;*/
@@ -320,9 +321,11 @@ a{
 
 /* Media queries md */
 @media (min-width: 678px) {
+    #parrafo1{
+        font-size: var(--tam-fuente-md);
+    }
     #seccion_escribenos{
         height: 100vh;
-        padding: 0px;
         text-align: center;
         display: flex;
         flex-direction: column;
