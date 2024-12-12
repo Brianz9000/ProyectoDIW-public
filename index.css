@@ -85,6 +85,7 @@ a{
     font-size: var(--tam-titulo-xs);
     text-align: center;
     color: var(--color-primario);
+    width: 100%;
 }
 .parrafo{
     color: var(--color-primario);
@@ -357,16 +358,30 @@ a{
 
 /* Media queries lg */
 @media (min-width: 992px) {
-    #seccion_escribenos{
-        border: 20px solid red;
+    #contenido_galeria_imagen{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .articulo_galeria{
+        width: 490px;
+        height: 5%;
+    }
+    .imagen_galeria{
+        height: 40%;
     }
 
 }
 
 /* Media queries xl */
 @media (min-width: 1200px) {
+    body{
+        width: 80%;
+        margin: auto;
+    }
     #seccion_escribenos{
-        border: 20px solid green;
 
     }
 }
