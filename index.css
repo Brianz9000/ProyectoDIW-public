@@ -323,11 +323,14 @@ a{
     #seccion_escribenos{
         height: 100vh;
         padding: 0px;
-        margin-top:-40px;
         text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-size: cover;
+    }
+    label{
+        text-align: left;
     }
 
     #articulo_escribenos{
@@ -336,7 +339,11 @@ a{
         padding-top: 70px;
         /*position: relative;*/
     }
-    #articulo_escribenos2{
+    #titulo_escribenos2 {
+        padding: 0px;
+        margin: 0px;
+    }
+        #articulo_escribenos2{
         height: 40vh;
         box-sizing: border-box;
         width: 70%;
