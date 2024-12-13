@@ -377,6 +377,7 @@ a{
         border: none;
         font-size: 1.8em;
     }
+
     .titulo{
         font-size: var(--tam-titulo-lg);
     }
