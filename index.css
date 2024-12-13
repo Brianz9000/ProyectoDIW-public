@@ -309,6 +309,9 @@ footer {
         /*padding: 10% 0px;*/
         line-height: 1.7rem;
     }
+    #parrafo1 {
+        font-size: var(--tam-titulo-xs);
+    }
 
     /* --------------contenido2--------- */
     #contenido2 {
