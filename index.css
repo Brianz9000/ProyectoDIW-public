@@ -4,7 +4,7 @@
     --fuente-alternativa: sans-serif;
     --tam-titulo-xs: 30px;
     --tam-titulo-md: 40px;
-    --tam-titulo-lg: 4em;
+    --tam-titulo-lg: 3em;
     /*    --tam-fuente-sm: 13px;*/
     --tam-fuente-md: 3em;
     /*    --tam-fuente-lg: 17px;*/
@@ -130,7 +130,7 @@ a {
 
 #parrafo1 {
     box-sizing: border-box;
-    font-size: 1.7rem;
+    /*font-size: 1.7rem;*/
     text-align: center;
     color: #21ad21;
 }
@@ -280,7 +280,13 @@ a {
 }
 
 #ir_inicio {
-    display: none;
+    font-size:200px;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+    width: 40px;
 }
 footer {
     background-color: var(--color-primario);
@@ -353,10 +359,13 @@ footer {
 } */
 
 /* Media queries md */
-@media (min-width: 678px) {
+@media (min-width: 678px)  {
+    /* --------------contenido1--------- */
+
     #parrafo1 {
         font-size: var(--tam-fuente-md);
     }
+    /* --------------seccion escribenos form--------- */
 
     #seccion_escribenos {
         height: 100vh;
@@ -394,6 +403,8 @@ footer {
 
 /* Media queries lg */
 @media (min-width: 992px) {
+    /* --------------general--------- */
+
     #menu {
         display: flex;
         justify-content: space-between;
@@ -424,6 +435,7 @@ footer {
     .titulo {
         font-size: var(--tam-titulo-lg);
     }
+    /* --------------contenido1--------- */
 
     #contenido1 {
         height: 90vh;
@@ -434,6 +446,7 @@ footer {
     #parrafo1 {
         line-height: 65px;
     }
+    /* --------------galeria--------- */
 
     #contenido_galeria_imagen {
         display: flex;
@@ -465,6 +478,8 @@ footer {
 
 /* Media queries xl */
 @media (min-width: 1200px) {
+    /* --------------general--------- */
+
     html {
         background-color: var(--fondo-encabezado);
     }
@@ -475,6 +490,8 @@ footer {
         margin: auto;
         background-color: white;
     }
+    /* --------------contenido1--------- */
+
     #parrafo1 {
         font-size: var(--tam-titulo-lg);
     }
@@ -585,6 +602,7 @@ footer {
         margin-top: -10%;
         margin-bottom: 30px;
     }
+    /* --------------galeria--------- */
 
     #contenido_galeria_imagen{
         clear: both;
@@ -592,17 +610,11 @@ footer {
     .imagen_galeria{
         border-radius: 30px;
     }
+    /* --------------contenido1--------- */
+
     #ir_inicio{
         margin-right: 10%;
     }
 
 }
 
-@media (min-height: 100vh) {
-    #ir_inicio {
-        display: block;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-    }
-}
