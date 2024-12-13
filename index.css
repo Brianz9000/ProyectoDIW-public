@@ -291,7 +291,7 @@ footer {
 }
 
 
-@media (max-width: 677px) and (orientation: landscape) {
+@media  (orientation: landscape) {
     #logo {
         height: 5vh;
     }
@@ -310,7 +310,7 @@ footer {
         line-height: 1.7rem;
     }
     #parrafo1 {
-        font-size: var(--tam-titulo-xs);
+        font-size: 15px
     }
 
     /* --------------contenido2--------- */
