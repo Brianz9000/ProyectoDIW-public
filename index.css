@@ -4,7 +4,7 @@
     --fuente-alternativa: sans-serif;
     --tam-titulo-xs: 30px;
     --tam-titulo-md: 40px;
-    --tam-titulo-lg: 3em;
+    --tam-titulo-lg: 4em;
     /*    --tam-fuente-sm: 13px;*/
     --tam-fuente-md: 3em;
     /*    --tam-fuente-lg: 17px;*/
@@ -291,7 +291,7 @@ footer {
 }
 
 
-@media (orientation: landscape) {
+@media (max-width: 677px) and (orientation: landscape) {
     #logo {
         height: 5vh;
     }
@@ -306,8 +306,8 @@ footer {
     }
 
     #articulo1 {
-        line-height: 2rem;
-
+        /*padding: 10% 0px;*/
+        line-height: 1.7rem;
     }
 
     /* --------------contenido2--------- */
@@ -471,6 +471,9 @@ footer {
         width: 80%;
         margin: auto;
         background-color: white;
+    }
+    #parrafo1 {
+        font-size: var(--tam-titulo-lg);
     }
 
     /*------------contenido2----------*/
