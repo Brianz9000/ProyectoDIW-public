@@ -419,11 +419,22 @@ a{
 
 /* Media queries xl */
 @media (min-width: 1200px) {
+    html{
+        background-color: var(--fondo-encabezado);
+    }
     body{
         background-color: var(--fondo-encabezado);
         width: 80%;
         margin: auto;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: white;
+    }
+    #contenido2{
+        height: 100vh;
+    }
+    #imagen2{
+        content: url('img/casa-cielo-xs.jpg');
+        height: 70vh;
+        border-radius: 20px;
     }
 
 }
