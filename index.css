@@ -355,6 +355,28 @@ a{
 
 /* Media queries lg */
 @media (min-width: 992px) {
+    #menu{
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--fondo-encabezado);
+
+    }
+    .logo{
+        width: 40%;
+    }
+    h1{
+    font-size: 1.8em;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+
+    }
+    ul li{
+        border: none;
+        font-size: 1.8em;
+    }
     .titulo{
         font-size: var(--tam-titulo-lg);
     }
@@ -388,8 +410,10 @@ a{
 /* Media queries xl */
 @media (min-width: 1200px) {
     body{
+        background-color: var(--fondo-encabezado);
         width: 80%;
         margin: auto;
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
 }
