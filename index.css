@@ -373,13 +373,11 @@ a{
         height: 40%;
     }
 
-    #seccion_escribenos{
-        display: flex;
-        flex-direction: column;
+
+    #articulo_escribenos > h1{
+        padding-bottom: 30px;
+        padding-top: -30px;
     }
-    /*#articulo_escribenos > h1{*/
-    /*    padding-bottom: 60px;*/
-    /*}*/
 
 }
 
