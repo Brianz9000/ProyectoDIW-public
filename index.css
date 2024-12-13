@@ -381,6 +381,14 @@ a{
     .titulo{
         font-size: var(--tam-titulo-lg);
     }
+    #contenido1{
+        height: 90vh;
+        padding: 100px 150px;
+    }
+    #parrafo1{
+        line-height: 65px;
+    }
+
     #contenido_galeria_imagen{
         display: flex;
         justify-content: space-around;
